@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 90" role="img" aria-labelledby="title desc">
+<title id="title">LEVEL UP Logo</title><desc id="desc">Abgerundetes 3D-artiges Logo mit LEVEL UP Schrift und grünem Pixel-Element.</desc>
+<rect x="4" y="8" width="312" height="74" rx="22" fill="#2F5BFF"/>
+<rect x="10" y="14" width="300" height="62" rx="18" fill="#0A0F2C"/>
+<path d="M30 28h18v30h25v12H30z" fill="#F2F5FF"/>
+<path d="M82 28h44v12H99v7h23v11H99v7h28v12H82z" fill="#F2F5FF"/>
+<path d="M138 28h18v30h25v12h-43z" fill="#F2F5FF"/>
+<path d="M190 28h18v32h22V28h18v34q0 9-9 9h-40q-9 0-9-9z" fill="#F2F5FF"/>
+<rect x="260" y="24" width="12" height="12" rx="3" fill="#C6FF3D"/>
+<rect x="276" y="40" width="12" height="12" rx="3" fill="#C6FF3D"/>
+<rect x="260" y="56" width="12" height="12" rx="3" fill="#C6FF3D"/>
+</svg>

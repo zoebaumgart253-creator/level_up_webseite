@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tickets – LEVEL UP! Ausstellungseröffnung 2027</title>
+<meta name="description" content="Ticketpreise und Musterformular für die LEVEL UP! Ausstellungseröffnung am 15. Mai 2027 in Berlin.">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png" sizes="180x180">
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+<a class="skip-link" href="#inhalt">Zum Inhalt springen</a>
+<header class="site-header">
+ <div class="container header-inner">
+  <a class="brand" href="index.html" aria-label="LEVEL UP! Startseite"><img src="assets/logo.svg" width="190" height="54" alt="LEVEL UP! – The Art of Gaming"></a>
+  <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="hauptnavigation">Menü</button>
+  <nav class="site-nav" id="hauptnavigation" aria-label="Hauptnavigation"><ul><li><a href="index.html">Startseite</a></li><li><a href="programm.html">Programm</a></li><li><a href="story.html">Story</a></li><li><a href="tickets.html" aria-current="page" class="nav-ticket">Tickets</a></li><li><a href="infos.html">Infos</a></li></ul></nav>
+ </div>
+</header>
+<main id="inhalt">
+
+<section class="page-hero"><div class="container"><p class="breadcrumb"><a href="index.html">Startseite</a> / Tickets</p><p class="eyebrow">Dein Zugang zur Ausstellung</p><h1>Hol dir dein Ticket.</h1><p class="lead">Sichere dir deinen Platz für einen Abend voller digitaler Kunst, interaktiver Erlebnisse und Gaming-Kultur.</p></div></section>
+<section class="section"><div class="container">
+ <div class="grid-3">
+  <article class="card"><span class="pill">Limited</span><h2>Early Bird</h2><p class="price">8 €</p><p>Für alle, die früh planen. Das Early-Bird-Ticket gilt für den gesamten Eröffnungsabend.</p></article>
+  <article class="card"><span class="pill">Beliebt</span><h2>Regulär</h2><p class="price">12 €</p><p>Dein regulärer Eintritt zur Ausstellungseröffnung inklusive aller Programmbereiche.</p></article>
+  <article class="card"><span class="pill">Vor Ort</span><h2>Abendkasse</h2><p class="price">15 €</p><p>Tickets sind – je nach Verfügbarkeit – am Veranstaltungstag vor Ort erhältlich.</p></article>
+ </div>
+ <div class="two-col spacer-top">
+  <div><h2>Dein Ticket anfragen</h2><p>Fülle das Formular aus, um deine gewünschte Ticketart auszuwählen. In einer echten Veranstaltung würdest du anschließend eine Bestätigung mit Zahlungs- und Abholinformationen erhalten.</p><p class="notice">Dies ist ein nicht funktionsfähiges Musterformular für ein Studienprojekt. Es werden keine echten Bestellungen oder Zahlungen verarbeitet.</p></div>
+  <img src="assets/img/ticket.webp" width="1200" height="800" loading="lazy" alt="Gestaltete 3D-Ticketgrafik in Blau und Neongrün">
+ </div>
+ <form id="ticket-form" class="card spacer-top">
+  <div class="form-grid">
+   <div class="form-field"><label for="name">Vor- und Nachname *</label><input id="name" name="name" type="text" autocomplete="name" required></div>
+   <div class="form-field"><label for="email">E-Mail-Adresse *</label><input id="email" name="email" type="email" autocomplete="email" required></div>
+   <div class="form-field"><label for="ticket-type">Ticketart *</label><select id="ticket-type" name="ticket-type" required><option value="">Bitte auswählen</option><option>Early Bird – 8 €</option><option>Regulär – 12 €</option><option>Abendkasse – 15 €</option></select></div>
+   <div class="form-field"><label for="quantity">Anzahl Tickets *</label><select id="quantity" name="quantity" required><option value="">Bitte auswählen</option><option>1</option><option>2</option><option>3</option><option>4</option></select></div>
+   <div class="form-field full"><label for="message">Nachricht (optional)</label><textarea id="message" name="message" placeholder="Gibt es etwas, das wir wissen sollten?"></textarea></div>
+   <div class="form-field full"><label><input type="checkbox" name="privacy" required style="width:auto"> Ich habe den Hinweis zum Studienprojekt gelesen. *</label></div>
+  </div>
+  <p class="form-note">* Pflichtfelder. Deine Angaben werden in diesem Demo-Projekt nicht an einen Server übertragen.</p>
+  <button class="button" type="submit">Anfrage testen</button>
+  <p id="form-message" class="notice" role="status" hidden>Danke! Das Formular wurde lokal getestet. Es wurde keine echte Buchung ausgelöst.</p>
+ </form>
+</div></section>
+
+</main>
+<footer class="footer">
+ <div class="container footer-inner">
+  <div><a href="index.html"><img src="assets/logo.svg" width="160" height="45" alt="LEVEL UP!"></a><p>Digitale Kunst. Neue Perspektiven. Eine Welt zum Entdecken.</p></div>
+  <div class="footer-links"><a href="infos.html#impressum">Impressum</a><a href="infos.html#bildnachweis">Bildnachweis</a><a href="infos.html#faq">FAQ</a></div>
+ </div>
+</footer>
+<script src="js/main.js" defer></script>
+</body>
+</html>
